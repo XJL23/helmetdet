@@ -1,0 +1,8 @@
+train: helmet/images/train  # train images (relative to 'path') 118287 images
+val: helmet/images/val  # train images (relative to 'path') 5000 images
+test: #datasets/test.txt  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+nc: 2  # number of classes
+names: ['hat','person']
+
